@@ -1,28 +1,46 @@
 
 
  body {
-   background-color: coral;
+   background-color: black;
   
   }
   #MainColor {
     background-color:white 
   }
+   /* Change background to blank  and adjust pic size on index page when used on smaller screens */
 
-
-  @media screen and (max-width:768px){
+  @media screen and (max-width:350px){
 
     body {
    
       background-color: black;
 
     }
-
-    /* Media query when hits 350 clear float from #mainpic, width 100% and change Margins */
-
-
   }
+  #MainPic{
+    float:none;
+    width: 100%;
+    margin: 0 20px 10px 0;
+  }
+  
+  
+  
+  /* Change background to coral on larger screens */
+  @media screen and (min-width:768px){
+
+    body {
+   
+      background-color: coral;
+
+    }
+
+    
+
+
+  
   #MainPic{
     float: left;
     width: 200px;
     margin: 0 20px 10px 0;
   }
+}
