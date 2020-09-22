@@ -1,9 +1,11 @@
 
-
+/* This Black Background is overiden to coral when screen is lagreger
+   i used this method so the site is more visable in mobile */
  body {
    background-color: black;
   
   }
+   /* Stylelize containers with white background */
   #MainColor {
     background-color:white 
   }
