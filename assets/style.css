@@ -36,9 +36,6 @@
 
     }
 
-    
-
-
   
   #MainPic{
     float: left;
@@ -46,3 +43,18 @@
     margin: 0 20px 10px 0;
   }
 }
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
