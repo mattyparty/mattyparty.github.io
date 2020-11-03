@@ -1,60 +1,40 @@
-
-/* This Black Background is overiden to coral when screen is lagreger
-   i used this method so the site is more visable in mobile */
- body {
-   background-color: black;
-  
-  }
-   /* Stylelize containers with white background */
-  #MainColor {
-    background-color:white 
-  }
-   /* Change background to blank  and adjust pic size on index page when used on smaller screens */
-
-  @media screen and (max-width:350px){
-
-    body {
-   
-      background-color: black;
-
-    }
-  }
-  #MainPic{
-    float:none;
-    width: 100%;
-    margin: 0 20px 10px 0;
-  }
-  
-  
-  
-  /* Change background to coral on larger screens */
-  @media screen and (min-width:768px){
-
-    body {
-   
-      background-color: coral;
-
-    }
-
-  
-  #MainPic{
-    float: left;
-    width: 200px;
-    margin: 0 20px 10px 0;
-  }
+body {
+  background-color: #e9eff5;
+}
+/* Stylelize containers with white background */
+#MainColor {
+  background-color: white;
 }
 
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
+#MainPic {
+  float: none;
+  width: 100%;
+}
+#MainPicResume {
+  float: none;
+  width: 100%;
+}
+.contact-icons {
+  width: 64px;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
 
+#info-top {
+  background-color: #2162af;
+  color: white;
+}
+
+#info-top-resume {
+  background-color: green;
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+.card-photo {
+  width: 300px;
+}
