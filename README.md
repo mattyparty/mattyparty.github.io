@@ -1,4 +1,4 @@
-# Unit 08 Project 1 Homework: Professional Materials
+# Unit 14 Project 2 Homework: Professional Materials
 
 ## Requirements
 
@@ -28,4 +28,4 @@ Thank you so much!!
 
 # Screen Shot of Deployed index page
 
-![alt text](https://raw.githubusercontent.com/mattyparty/mattyparty.github.io/main/assets/UpdatedProfile.png "Deployed Index Screen Shot")
+![alt text](https://raw.githubusercontent.com/mattyparty/mattyparty.github.io/main/assets/UpdatedProfile.png 'Deployed Index Screen Shot')
