@@ -29,3 +29,5 @@ Thank you so much!!
 # Screen Shot of Deployed index page
 
 ![alt text](https://raw.githubusercontent.com/mattyparty/mattyparty.github.io/main/assets/UpdatedProfile.png 'Deployed Index Screen Shot')
+
+Added to readme
